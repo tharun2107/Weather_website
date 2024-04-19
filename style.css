@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    width: 29%;
+    padding: 10px;
+  background-color: #80808060;
+border-radius: 20px;}
+.heading{
+
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    background-color:rgba(172, 255, 47, 0.793);
+    text-align: center;
+    height: 1.7rem;
+    width: 200px;
+   margin-left: 0p;
+   
+
+}
+.cityname{
+  margin-left: 32%;
+}
+input{
+
+    height: 35px;
+    width: 210px;
+    border-radius: 30px;
+    
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.7rem;
+    color:black;
+}
+.details{
+    display: flex;
+    gap: 120px;
+}
+.sear img{
+    margin: 5px;
+padding: 5px;
+    height: 20px;
+    width: 20px;
+
+}
+ .sear{
+    margin-top: 0px;
+  background-color: aqua;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+} 
+.sear:hover{
+    background-color: blueviolet;
+}
+.enter{
+    display: flex;
+gap: 10px;
+}
+.weather-logo{
+    margin-top: 10px;
+}
+@media screen and (max-width: 320px) {
+
+.container{
+  width: 85%;
+}
+.details{
+  gap: 50px;
+}
+*{
+  font-size: 14px;
+}
+}
+@media (min-width:320px)and (max-width: 425px) {
+
+  .container{
+    width: 85%;
+  }
+  .details{
+    margin-top: 8px;
+    gap: 50px;
+  }
+  *{
+    font-size: 16px;
+  }
+  }
+  @media (min-width:425px)and (max-width: 768px) {
+
+    .container{
+      width: 55%;
+    }
+    .details{
+      margin-top: 10px;
+      gap: 60px;
+    }
+    *{
+      font-size: 16px;
+    }
+    }
+    @media (min-width:768px)and (max-width: 1024px) {
+
+      .container{
+        width: 60%;
+      }
+     
+      }
+      @media (min-width:1024px)and (max-width: 1330px) {
+
+        .container{
+          width: 50%;
+        }
+       
+        }
